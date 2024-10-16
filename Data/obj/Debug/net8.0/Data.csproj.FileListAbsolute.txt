@@ -32,3 +32,4 @@ C:\backup\Cursos\Udemy\FullStackAngularNetCore\DoctorApp\DoctorAppBackend\Data\o
 C:\backup\Cursos\Udemy\FullStackAngularNetCore\DoctorApp\DoctorAppBackend\Data\obj\Debug\net8.0\Data.pdb
 C:\backup\Cursos\Udemy\FullStackAngularNetCore\DoctorApp\DoctorAppBackend\Data\obj\Debug\net8.0\Data.genruntimeconfig.cache
 C:\backup\Cursos\Udemy\FullStackAngularNetCore\DoctorApp\DoctorAppBackend\Data\obj\Debug\net8.0\ref\Data.dll
+C:\backup\Cursos\Udemy\FullStackAngularNetCore\DoctorApp\DoctorAppBackend\Data\obj\Debug\net8.0\Data.sourcelink.json

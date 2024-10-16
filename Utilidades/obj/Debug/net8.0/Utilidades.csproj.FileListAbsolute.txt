@@ -13,3 +13,4 @@ C:\backup\Cursos\Udemy\FullStackAngularNetCore\DoctorApp\DoctorAppBackend\Utilid
 C:\backup\Cursos\Udemy\FullStackAngularNetCore\DoctorApp\DoctorAppBackend\Utilidades\obj\Debug\net8.0\refint\Utilidades.dll
 C:\backup\Cursos\Udemy\FullStackAngularNetCore\DoctorApp\DoctorAppBackend\Utilidades\obj\Debug\net8.0\Utilidades.pdb
 C:\backup\Cursos\Udemy\FullStackAngularNetCore\DoctorApp\DoctorAppBackend\Utilidades\obj\Debug\net8.0\ref\Utilidades.dll
+C:\backup\Cursos\Udemy\FullStackAngularNetCore\DoctorApp\DoctorAppBackend\Utilidades\obj\Debug\net8.0\Utilidades.sourcelink.json

@@ -283,3 +283,6 @@ C:\backup\Cursos\Udemy\FullStackAngularNetCore\DoctorApp\DoctorAppBackend\API\ob
 C:\backup\Cursos\Udemy\FullStackAngularNetCore\DoctorApp\DoctorAppBackend\API\obj\Debug\net8.0\API.pdb
 C:\backup\Cursos\Udemy\FullStackAngularNetCore\DoctorApp\DoctorAppBackend\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\backup\Cursos\Udemy\FullStackAngularNetCore\DoctorApp\DoctorAppBackend\API\obj\Debug\net8.0\ref\API.dll
+C:\backup\Cursos\Udemy\FullStackAngularNetCore\DoctorApp\DoctorAppBackend\API\bin\Debug\net8.0\BLL.dll
+C:\backup\Cursos\Udemy\FullStackAngularNetCore\DoctorApp\DoctorAppBackend\API\bin\Debug\net8.0\BLL.pdb
+C:\backup\Cursos\Udemy\FullStackAngularNetCore\DoctorApp\DoctorAppBackend\API\obj\Debug\net8.0\API.sourcelink.json
