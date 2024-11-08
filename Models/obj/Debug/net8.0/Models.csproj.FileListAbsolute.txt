@@ -21,3 +21,4 @@ C:\backup\Cursos\Udemy\FullStackAngularNetCore\DoctorApp\DoctorAppBackend\Models
 C:\backup\Cursos\Udemy\FullStackAngularNetCore\DoctorApp\DoctorAppBackend\Models\obj\Debug\net8.0\Models.pdb
 C:\backup\Cursos\Udemy\FullStackAngularNetCore\DoctorApp\DoctorAppBackend\Models\obj\Debug\net8.0\ref\Models.dll
 C:\backup\Cursos\Udemy\FullStackAngularNetCore\DoctorApp\DoctorAppBackend\Models\obj\Debug\net8.0\Models.sourcelink.json
+C:\backup\Cursos\Udemy\FullStackAngularNetCore\DoctorApp\DoctorAppBackend\Models\obj\Debug\net8.0\Models.csproj.AssemblyReference.cache

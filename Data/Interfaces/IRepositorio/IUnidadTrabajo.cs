@@ -10,6 +10,8 @@ namespace Data.Interfaces.IRepositorio
     {
         IEspecialidadRepositorio Especialidad { get; }
 
+        IMedicoRepositorio Medico { get; }
+
         Task Guardar();
     }
 }

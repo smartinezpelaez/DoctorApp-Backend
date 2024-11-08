@@ -19,7 +19,7 @@ namespace API.Controllers
         [HttpGet("auth")]
         public ActionResult<string> GetNotAutorize() 
         {
-            return "No autorizado";
+            return "No Autorizado";
         
         }
 

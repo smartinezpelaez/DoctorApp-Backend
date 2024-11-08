@@ -1,11 +1,13 @@
 ﻿using BLL.Servicios.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Models.DTOs;
 using System.Net;
 
 namespace API.Controllers
 {
-    public class EspecialidadController: BaseApiController
+    [Authorize(Policy = "AdminAgendadorRol")]
+    public class EspecialidadController : BaseApiController
     {
         private readonly IEspecialidadServicio _especialidadServicio;
         private ApiResponse _response;
@@ -22,17 +24,36 @@ namespace API.Controllers
             try
             {
                 _response.Resultado = await _especialidadServicio.ObtenerTodos();
-                _response.IsExistoso = true;
+                _response.IsExitoso = true;
                 _response.StatusCode = HttpStatusCode.OK;
             }
             catch (Exception ex)
             {
-                _response.IsExistoso=false;
+                _response.IsExitoso = false;
                 _response.Mensaje = ex.Message;
-                _response.StatusCode = HttpStatusCode.BadRequest;                
+                _response.StatusCode = HttpStatusCode.BadRequest;
             }
             return Ok(_response);
         }
+
+        [HttpGet("ListadoActivos")]
+        public async Task<IActionResult> GetActivos()
+        {
+            try
+            {
+                _response.Resultado = await _especialidadServicio.ObtenerActivos();
+                _response.IsExitoso = true;
+                _response.StatusCode = HttpStatusCode.OK;
+            }
+            catch (Exception ex)
+            {
+                _response.IsExitoso = false;
+                _response.Mensaje = ex.Message;
+                _response.StatusCode = HttpStatusCode.BadRequest;
+            }
+            return Ok(_response);
+        }
+
 
         [HttpPost]
         public async Task<IActionResult> Crear(EspecialidadDto modeloDto)
@@ -40,13 +61,13 @@ namespace API.Controllers
             try
             {
                 await _especialidadServicio.Agregar(modeloDto);
-                _response.IsExistoso = true;
+                _response.IsExitoso = true;
                 _response.StatusCode = HttpStatusCode.Created;
             }
             catch (Exception ex)
             {
-                _response.IsExistoso = false;
-                _response.Mensaje =ex.Message;
+                _response.IsExitoso = false;
+                _response.Mensaje = ex.Message;
                 _response.StatusCode = HttpStatusCode.BadRequest;
             }
             return Ok(_response);
@@ -58,12 +79,12 @@ namespace API.Controllers
             try
             {
                 await _especialidadServicio.Actualizar(modeloDto);
-                _response.IsExistoso = true;
+                _response.IsExitoso = true;
                 _response.StatusCode = HttpStatusCode.NoContent;
             }
             catch (Exception ex)
             {
-                _response.IsExistoso = false;
+                _response.IsExitoso = false;
                 _response.Mensaje = ex.Message;
                 _response.StatusCode = HttpStatusCode.BadRequest;
             }
@@ -76,12 +97,12 @@ namespace API.Controllers
             try
             {
                 await _especialidadServicio.Remover(id);
-                _response.IsExistoso = true;
+                _response.IsExitoso = true;
                 _response.StatusCode = HttpStatusCode.NoContent;
             }
             catch (Exception ex)
             {
-                _response.IsExistoso = false;
+                _response.IsExitoso = false;
                 _response.Mensaje = ex.Message;
                 _response.StatusCode = HttpStatusCode.BadRequest;
             }
