@@ -12,6 +12,11 @@ namespace Data.Interfaces.IRepositorio
 
         IMedicoRepositorio Medico { get; }
 
+        IAntecedenteRepositorio Antecedente { get; }
+
+        IHistoriaClinicaRepositorio HistoriaClinica { get; }
+
+        IPacienteRepositorio Paciente { get; }
         Task Guardar();
     }
 }
